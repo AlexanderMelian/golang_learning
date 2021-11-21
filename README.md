@@ -1,8 +1,8 @@
-###Golang speed
+# Golang speed
 
-This is a speed golang introduction\
+This is a speed golang introduction
 
-#Variables
+## Variables
 
 First file to test is main.go of vars/main.go
 
@@ -22,3 +22,21 @@ var foo = 32
 
 More lecture of vars
 * https://blog.learngoprogramming.com/learn-go-lang-variables-visual-tutorial-and-ebook-9a061d29babe
+
+
+## Control Structures
+Inside of the folder "/control_structures" we have everything to work
+
+if es easy to understand on golang, 'if', 'else if' and 'else' \
+With for we have all loops, the first for we can see "init"; "conditional"; "loop-expression" \
+The second for loop only we can see "conditional", is an while loop... \
+The third for loop is an infinite loop, "for(;;)" or "while (true)"
+
+
+
+## Structures(Objects)
+
+
+
+
+

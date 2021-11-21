@@ -31,6 +31,20 @@ func main() {
 	var uintptr_test uintptr = 182941239 // uintptr is an alias for uint64, or integer of 64 bits
 	fmt.Println(uintptr_test)
 
+	//array of int
+	var array_test [2]int
+	array_test[0] = 1
+	array_test[1] = 2
+	fmt.Println(array_test)
 
+	var array_test2 [2]int = [2]int{1, 2}
+	fmt.Println(array_test2)
+
+	a := 1
+	fmt.Println(a)
+	b := "asd"
+	fmt.Println(b)
+	c := true
+	fmt.Println(c)
 
 }
