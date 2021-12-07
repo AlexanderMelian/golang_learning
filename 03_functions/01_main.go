@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func add_two(inp int16) int16 {
-	return inp + 2 //
+	return inp + 2
 }
 
 func print_string(inp string) {
