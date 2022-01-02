@@ -7,9 +7,14 @@ import (
 )
 
 func homePage(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Bienvenido a GNUNO")
-	fmt.Println("Ha ingresado un usuario")
-
+	if r.Method == "GET" {
+		fmt.Fprintf(w, "Bienvenido a GNUNO")
+	} else if r.Method == "POST" {
+		fmt.Fprintf(w, "Solicitud recibida - GNUNO")
+	} else {
+		fmt.Fprintf(w, "404")
+	}
+	fmt.Println("An User joined  " + r.Method)
 }
 
 func handleRequests() {

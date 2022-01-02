@@ -4,7 +4,7 @@ This is a speed golang introduction
 
 ## Variables
 
-First file to test is main.go of 01_vars/main.go
+First file to test is 01_datatypes.go of 01_vars/01_datatypes.go
 
 Can see
 ```
@@ -27,8 +27,8 @@ More lecture of vars
 ## Control Structures
 Inside of the folder "/02_control_structures" we have everything to work
 
-if is easy to understand on golang, 'if', 'else if' and 'else' \
-With for we have all loops, the first for we can see "init"; "conditional"; "loop-expression" \
+Go to the file "01_if.go", if is easy to understand on golang, 'if', 'else if' and 'else' \
+Now to the file "02_for.go". With for we have all loops, the first for we can see "init"; "conditional"; "loop-expression" \
 The second for loop only we can see "conditional", is an while loop... \
 The third for loop is an infinite loop, "for(;;)" or "while (true)"
 

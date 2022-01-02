@@ -4,6 +4,13 @@ import "fmt"
 
 func main() {
 
+	a := 1
+	fmt.Println(a)
+	b := "asd"
+	fmt.Println(b)
+	c := true
+	fmt.Println(c)
+
 	var string_test string = "MyString"
 	fmt.Println(string_test)
 
@@ -39,12 +46,5 @@ func main() {
 
 	var array_test2 [2]int = [2]int{1, 2}
 	fmt.Println(array_test2)
-
-	a := 1
-	fmt.Println(a)
-	b := "asd"
-	fmt.Println(b)
-	c := true
-	fmt.Println(c)
 
 }
