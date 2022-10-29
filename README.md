@@ -33,9 +33,6 @@ The second for loop only we can see "conditional", is an while loop... \
 The third for loop is an infinite loop, "for(;;)" or "while (true)"
 
 
-## Functions(Objects)
-
-
 
 
 ## Concurrency
