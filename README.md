@@ -33,9 +33,19 @@ The second for loop only we can see "conditional", is an while loop... \
 The third for loop is an infinite loop, "for(;;)" or "while (true)"
 
 
-## Structures(Objects)
+## Functions(Objects)
 
 
 
 
+## Concurrency
 
+
+https://go.dev/tour/concurrency/1
+
+
+### Goroutines
+A goroutine is a lightweight thread managed by th Go runtime
+
+### Channels
+A channel gives us a way to "connect" the different concurrent parts of our program
